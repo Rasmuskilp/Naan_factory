@@ -1,24 +1,5 @@
-#Basis of a test
-#Having controlled inputs for known outputs
-    #and testing for these
-# #Make test for make_dough
-# #to make dough it will take in 'water' and 'flour'
-# inputs = 'water' and 'flour'
-# outputs = 'dough'
-#tests go here for separation of concerns
-def make_dough(ing_1,ing_2):
-    if ing_1 != 'water' and ing_2 != 'water':
-        return 'not dough'
-    elif ing_1 != 'flour' and ing_2 != 'flour':
-        return 'not dough'
-    elif 'water' in [ing_1,ing_2] and 'flour' in [ing_1,ing_2]:
-        return 'dough'
-#return 'dough'
-def bake_dough(arg1):
-    if arg1 == 'dough':
-        return 'Naan'
-    else:
-        return 'not Naan'
+from naan_factory_functions import *
+#Tests go here for separation of concerns
 print("Testing make_dough with 'water' and 'flour'. Expected -->'dough'")
 print(make_dough('water','flour') == 'dough')
 print('got:',make_dough('water','flour'))
@@ -37,4 +18,3 @@ print(bake_dough('chicken') == 'not Naan')
 print("Testing bake_dough, with 'dough'. Expected --> 'not Naan'")
 print('got:',bake_dough('chicken'))
 print(bake_dough('wood') == 'not Naan')
-
