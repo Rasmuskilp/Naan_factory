@@ -1,3 +1,10 @@
+this is a repo for our Naan factory :bread:
+- the learning outcomes include :
+- github
+- markdown
+- TDD
+- Functional Programming
+
 #DOD(definition of done)
 For project:
 - it is a project, by itself
