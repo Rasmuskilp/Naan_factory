@@ -6,8 +6,10 @@ this is a repo for our Naan factory :bread:
 - Functional Programming & best practices
 - DRY Principles
 - Separation of Concerns
+
 ## How to run the programme
 Run the naan_factory_run.py file
+
 ##how to run the tests
 Run the naan_factory_tests.py file
 
