@@ -5,6 +5,11 @@ this is a repo for our Naan factory :bread:
 - TDD
 - Functional Programming
 
+#basis of a test
+##You'll be testing functions or methods, these need to be called or initialised
+###having controlled inputs for known outputs
+    ### and testing for these
+
 ##Factory specifications
 
 Our factory will have two steps.
@@ -25,6 +30,10 @@ output = 'Naan'
 
 ### 3. factory_run
 Lastly we should just be able to give the factory the water and flour to get the Naan
+
+inputs = 'water' and 'flour'
+
+outputs = Naan
 
 ##Factory objectives
 
