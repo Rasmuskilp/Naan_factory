@@ -3,7 +3,9 @@ this is a repo for our Naan factory :bread:
 - github
 - markdown
 - TDD
-- Functional Programming
+- Functional Programming & best practices
+- DRY Principles
+- Separation of Concerns
 
 #basis of a test
 ##You'll be testing functions or methods, these need to be called or initialised
